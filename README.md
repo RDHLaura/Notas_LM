@@ -11,7 +11,7 @@ npm i xml2js
 npm i readline-sync
 ```
 
-##INICIAR LA APLICACIÓN
+**INICIAR LA APLICACIÓN**
 Podemos ejecutarla desde la misma terminal del IDE con el siguiente comando
 ```
 node main.js
