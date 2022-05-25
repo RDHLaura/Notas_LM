@@ -7,10 +7,11 @@ Aplicación para la gestión de notas en Node.js
 ```
 npm i nodejs
 npm i fs
-npm i readline-sync
 npm i xml2js
+npm i readline-sync
 ```
 
+##INICIAR LA APLICACIÓN
 Podemos ejecutarla desde la misma terminal del IDE con el siguiente comando
 ```
 node main.js
@@ -18,7 +19,9 @@ node main.js
 
 **OPCIONES DISPONIBLES EN LA APLICACIÓN:**
 La aplicación dispone de las siguientes opciones en su menú: 
--Insertar una nueva nota.
+
 -Imprimir todas las notas por pantalla.
+-Insertar una nueva nota.
 -Modificar una nota.
 -Buscar una nota.
+-Cerrar el programa.
