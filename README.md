@@ -20,8 +20,8 @@ node main.js
 **OPCIONES DISPONIBLES EN LA APLICACIÓN:**
 La aplicación dispone de las siguientes opciones en su menú: 
 
--Imprimir todas las notas por pantalla.
--Insertar una nueva nota.
--Modificar una nota.
--Buscar una nota.
--Cerrar el programa.
+- Imprimir todas las notas por pantalla.
+- Insertar una nueva nota.
+- Modificar una nota.
+- Buscar una nota.
+- Cerrar el programa.
