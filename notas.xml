@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<notas>
+  <nota id="1">
+    <titulo>nueva prueba</titulo>
+    <contenido>bbbbbb</contenido>
+    <fecha>2022-5-25 - 23:31</fecha>
+    <categoria>tttttt</categoria>
+  </nota>
+  <nota id="2">
+    <titulo>Compra</titulo>
+    <contenido>aksdjal�,asmdl�aks</contenido>
+    <fecha>2022-5-25 - 23:32</fecha>
+    <categoria>�las</categoria>
+  </nota>
+  <nota id="3">
+    <titulo>Tareas</titulo>
+    <contenido>lkasjdaman asjkdlak alskdj�lak askdja</contenido>
+    <fecha>2022-5-25 - 23:32</fecha>
+    <categoria>as</categoria>
+  </nota>
+  <nota id="4">
+    <titulo>nueva nota</titulo>
+    <contenido>sin contenido</contenido>
+    <fecha>2022-5-26 - 0:26</fecha>
+    <categoria>Pruebas</categoria>
+  </nota>
+</notas>
