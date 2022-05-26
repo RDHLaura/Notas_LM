@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <notas>
   <nota id="1">
-    <titulo>nueva prueba</titulo>
+    <titulo>nuevo t�tulo</titulo>
     <contenido>bbbbbb</contenido>
-    <fecha>2022-5-25 - 23:31</fecha>
+    <fecha>2022-5-26 - 15:39</fecha>
     <categoria>tttttt</categoria>
   </nota>
   <nota id="2">
@@ -19,9 +19,15 @@
     <categoria>as</categoria>
   </nota>
   <nota id="4">
-    <titulo>nueva nota</titulo>
+    <titulo>Nota 4</titulo>
     <contenido>sin contenido</contenido>
-    <fecha>2022-5-26 - 0:26</fecha>
+    <fecha>2022-5-26 - 16:0</fecha>
+    <categoria>Pruebas</categoria>
+  </nota>
+  <nota id="5">
+    <titulo>nueva nota</titulo>
+    <contenido>esto es una nueva prueba</contenido>
+    <fecha>2022-5-26 - 15:59</fecha>
     <categoria>Pruebas</categoria>
   </nota>
 </notas>

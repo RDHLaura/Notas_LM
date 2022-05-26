@@ -17,7 +17,7 @@ function listarNotas(){
     
             result.notas.nota.forEach((elemento) =>{
                 console.log("-----");
-                console.log(elemento);
+                imprimirNodo(elemento);
             });
         });
     });
@@ -45,17 +45,17 @@ function buscar1Nota(){
                 switch(eleccion+1){
                     case 1:
                         if(elemento.$.id==busqueda){
-                            console.log(elemento);
+                            imprimirNodo(elemento);
                             existe=true;                    
                         }
                     case 2: 
                         if( JSON.stringify(elemento.titulo).toUpperCase().indexOf(busqueda.toUpperCase())!==-1){
-                            console.log(elemento);
+                            imprimirNodo(elemento);
                             existe=true;
                         }
                     case 3:
                         if( JSON.stringify(elemento.contenido).toUpperCase().indexOf(busqueda.toUpperCase())!==-1){
-                            console.log(elemento);
+                            imprimirNodo(elemento);
                             existe=true;
                         }
                 }
@@ -65,8 +65,14 @@ function buscar1Nota(){
         
         });
     });
-}
 
+}
+function imprimirNodo(nodo){ 
+    console.log(`Título: ${nodo.titulo} (id: ${nodo.nota.id}).`);
+    console.log(`Fecha: ${nodo.fecha}`);
+    console.log(`Categoria: ${nodo.categoria}`);
+    console.log(`Contenido: ${nodo.contenido}\n`);
+}
 
 module.exports.buscar1Nota = buscar1Nota;
 module.exports.listarNotas = listarNotas;
